@@ -10,13 +10,52 @@
 </head>
 <body> 
 
-    <header>   
+    <header>  
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a>Home</a></li>
+              
+                <li><a>About</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-xl font-extrabold text-[#131318] ml-28">Hockey<span class="text-[#FF4240] font-extrabold text-xl">’</span>s</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a class="text-[#FF4240] ">Home</a></li>
+              
+                <li><a>About</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <i class="fa-solid fa-magnifying-glass"></i> <a class="btn bg-orange-400 w-40 h-26 mr-20 ml-8 text-white">Get Ticket</a>
+          </div>
+        </div>
+      </nav>  
 
 
         <!-- banner section -->
         <div class="carousel  lg:w-11/12 h-4/6 ml-28 mr-28 mt-32 w-3/4 ">
             <div id="slide1" class="carousel-item relative w-full">
-              <img src="images/1.png" class="w-11/12 h-4/6 " />
+              <div>
+                <img src="images/1.png" class="w-11/12 h-4/6 " />
+              
+              <h2>Meet all the heroes from the field</h2>
+              <p class="m">We were cheering with the riot squad up in the corner and they <br>were beating their drums. It was very cool. </p>
+            </div> 
+
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-8 top-12 lg:top-52 lg:right-40">
                 <a href="#slide4" class="btn btn-circle">❮</a> 
                 <a href="#slide2" class="btn btn-circle">❯</a>
@@ -98,7 +137,7 @@
                     <h2 class="text-4xl font-semibold">Junior Program</h2> 
                     <p>
                         Junior A was referred to as Tier II Junior A in the 1970s, until what was  <br> called Major Junior A broke away from  their regional branches in <br>1980 formed the Canadian Hockey League, becoming Major Junior hockey.</p>
-                    <button class="p-6 bg-red-500 text-white border-1 border-red-500">Register Now!</button> 
+                    <button class="p-4 bg-red-500 text-white  w-64 h-26  border-red-500 btn">Register Now!</button> 
                 </div>
 
                 </div>
@@ -108,7 +147,7 @@
                     <h2 class="text-4xl font-semibold">Teenager Program</h2> 
                     <p>
                         Junior A was referred to as Tier II Junior A in the 1970s, until what was  <br> called Major Junior A broke away from  their regional branches in 1980 and <br> formed the Canadian Hockey League, becoming Major Junior hockey.</p>
-                    <button class="p-6 bg-red-500 text-white border-1 border-red-500">Register Now!</button>
+                    <button class="p-4 bg-red-500 text-white  w-64 h-26  border-red-500 btn">Register Now!</button>
                 </div>
                 </div>
                 <div class="bg-[url(images/4.png)] bg-no-repeat text-white space-y-4  col-span-2 mt-4 ml-24 items-center w-11/12 h-96 rounded-xl">
@@ -116,7 +155,7 @@
                     <h2 class="text-4xl font-semibold">Professional Program</h2> 
                     <p>
                         Junior A was referred to as Tier II Junior A in the 1970s, until what was  <br> called Major Junior A broke away from  their regional branches in 1980 and <br> formed the Canadian Hockey League, becoming Major Junior hockey.</p>
-                    <button class="p-6 bg-red-500 text-white border-1 border-red-500">Register Now!</button>
+                    <button class="p-4 bg-red-500 text-white w-64 h-26 border-red-500 btn">Register Now!</button>
                  </div>
                 </div>
             </div>
