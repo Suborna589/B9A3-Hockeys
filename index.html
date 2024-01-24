@@ -7,6 +7,14 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+<style>
+  .font-manrope{
+    font-family: 'Manrope', sans-serif;
+  }
+</style>
 </head>
 <body> 
 
@@ -26,11 +34,11 @@
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <a class="btn btn-ghost text-xl font-extrabold text-[#131318] ml-28">Hockey<span class="text-[#FF4240] font-extrabold text-xl">’</span>s</a>
+            <a class="btn btn-ghost text-xl font-manrope font-extrabold text-[#131318] lg:ml-28">Hockey<span class="text-[#FF4240]  font-extrabold text-xl">’</span>s</a>
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
-              <li><a class="text-[#FF4240] ">Home</a></li>
+              <li><a class="text-[#FF4240]  font-manrope">Home</a></li>
               
                 <li><a>About</a></li>
                 <li><a>Blog</a></li>
@@ -38,8 +46,12 @@
                 <li><a>Contact</a></li>
             </ul>
           </div>
-          <div class="navbar-end">
-            <i class="fa-solid fa-magnifying-glass"></i> <a class="btn bg-orange-400 w-40 h-26 mr-20 ml-8 text-white">Get Ticket</a>
+          <div class="navbar-end "> 
+            <div class=" hidden lg:flex">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div> 
+            <a class="btn bg-orange-400 w-40 h-26 lg:mr-20  lg:ml-8 text-white">Get Ticket</a> 
+         
           </div>
         </div>
       </nav>  
@@ -49,14 +61,14 @@
         <div class="carousel  lg:w-11/12 h-4/6 ml-28 mr-28 mt-32 w-3/4 ">
             <div id="slide1" class="carousel-item relative w-full">
               <div>
-                <img src="images/1.png" class="w-11/12 h-4/6 relative ml-24" />
-              <div class="absolute top-72 right-52 bg-slate-950 text-white text-left p-6 w-96 space-y-2 h-32 rounded-xl">
-              <h2 class="font-abold text-xl" >Meet all the heroes from the field</h2>
-              <p class="m">We were cheering with the riot squad up in the <br> corner and they were beating their drums.  </p>
+                <img src="images/1.png" class=" lg:w-11/12 lg:h-4/6 relative  lg:ml-24" />
+              <div class="absolute   top-72 lg:right-52 bg-slate-950 font-manrope text-white text-left p-4  lg:w-96 space-y-2 lg:h-32 rounded-xl">
+              <h2 class="font-abold text-xl font-manrope" >Meet all the heroes from the field</h2>
+              <p class="font-manrope">We were cheering with the riot squad up in the <br> corner and they were beating their drums.  </p>
             </div>
             </div> 
 
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-28 right-8 top-12 lg:top-52 lg:right-52">
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-28 right-42 top-12 lg:top-52 lg:right-52">
                 <a href="#slide4" class="btn btn-circle">❮</a> 
                 <a href="#slide2" class="btn btn-circle">❯</a>
               </div>
@@ -87,31 +99,31 @@
     <main> 
         <!-- Professional Hockeys Club -->
         <section>
-            <div class="text-center space-y-4 justify-center">
-                <h2 class="text-[#131318] text-4xl font-semibold ">Professional Hockeys Club</h2> 
-                <p class="text-lg ">
+            <div class="text-center space-y-4 justify-center font-manrope ml-16">
+                <h2 class="text-[#131318]  text-2xl lg:text-4xl font-semibold  ">Professional Hockeys Club</h2> 
+                <p class=" lg:text-lg ">
                  Everything about this sport is fast-paced: the slap shots, the game pace, the players. Every other sport <br> moves at a glacial pace in comparison to this one. </p>
             </div> 
 
-            <div class="grid grid-cols-4 ml-20 gap-y-7  mt-28 w-11/12 h-96">
-                <div class="text-center  space-y-4"> 
+            <div class="grid grid-cols-1 lg:grid-cols-4 ml-20 lg:gap-y-7  lg:mt-28 lg:w-11/12 lg:h-96">
+                <div class="text-center  space-y-4 font-manrope"> 
                   <div class="radial-progress text-red-500 " style="--value:87;" role="progressbar"><span class="text-primary font-extrabold text-black">87%</span></div>
                   <h2 class="text-[#131318] text-xl font-semibold ">Prayer Facility</h2>
                   <p class="font-normal text-base"> A Prayer Room is an opportunity to <br>draw  take time out and meet with God.</p>
                 </div>
-                <div class="text-center  space-y-4"> 
+                <div class="text-center  space-y-4 font-manrope"> 
                   <div class="radial-progress text-[#49D293] " style="--value:95;" role="progressbar"><span class="text-primary font-extrabold text-black">95%</span></div>
                   <h2 class="text-[#131318] text-xl font-semibold ">Experienced Coach</h2>
                   <p>Typical coach jobs require 4-6 years <br>  of experience in related fields..</p>
                  
                 </div>
-                <div class="text-center  space-y-4">
+                <div class="text-center  space-y-4 font-manrope">
                   <div class="radial-progress text-[#F4B400]" style="--value:90;" role="progressbar"><span class="text-primary font-extrabold text-black">90%</span></div>
                       <h2 class="text-[#131318] text-xl font-semibold ">Senior Player</h2>
                       <p class="font-normal text-base"> Senior Player means a Player who is <br> a member of a Senior Affiliated Team.</p>
                  
                 </div>
-                <div class="text-center  space-y-4">
+                <div class="text-center  space-y-4 font-manrope">
                   <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar"><span class="text-primary font-extrabold text-black">80%</span></div>
                  <h2 class="text-[#131318] text-xl font-semibold ">Training Ground</h2>
                  <p class="font-normal text-base">It seeks to improve the job performance  <br>and work behaviour of those trained.</p> 
@@ -124,35 +136,35 @@
         <!-- Program Sections  -->
 
         <section> 
-            <div class="text-center space-y-6 justify-center justify-between mt-20 ">
+            <div class="text-center space-y-6 justify-center justify-between mt-20  ml-20  w-10/12 ">
 
               
-                <h2 class="text-[#131318] text-4xl font-semibold "> Program Sections</h2> 
-                <p class="text-lg ">
+                <h2 class="text-[#131318] text-2xl lg:text-4xl font-semibold font-manrope  "> Program Sections</h2> 
+                <p class=" lg:text-lg ">
                     Hockey is a kind of invasion game that is played by two teams of eleven players. Each team's goal is to <br> push a small and heavy hockey ball into their opposition's goal. </p>
             </div> 
-            <div class="grid grid-cols-2 mt-20 ">
-                <div class="bg-[url(images/2.png)] bg-no-repeat text-white w-5/6 h-80 ml-24 rounded-xl  "> 
-                    <div class="pt-12 pl-8 space-y-6 ">
-                    <h2 class="text-4xl font-semibold">Junior Program</h2> 
+            <div class="grid grid-cols-1 lg:grid-cols-2 lg:mt-20 gap-x-4 ">
+                <div class="bg-[url(images/2.png)] bg-no-repeat text-white w-11/12 lg:w-5/6 lg:h-80 ml-20 space-y-2 rounded-xl  "> 
+                    <div class=" pt-4 lg:pt-12 pl-8 space-y-6 font-manrope">
+                    <h2 class="text-2xl lg:text-4xl font-semibold">Junior Program</h2> 
                     <p>
                         Junior A was referred to as Tier II Junior A in the 1970s, until what was  <br> called Major Junior A broke away from  their regional branches in <br>1980 formed the Canadian Hockey League, becoming Major Junior hockey.</p>
-                    <button class="p-2 bg-red-500 text-white  w-64 h-26 text-base border-red-500 btn">Register Now!</button> 
+                    <button class=" p-2 bg-red-500 text-white  w-64 h-26 text-base border-red-500 btn">Register Now!</button> 
                 </div>
 
                 </div>
-                <div class="bg-[url(images/3.png)] bg-no-repeat text-white mr-24 rounded-xl ">
+                <div class="bg-[url(images/3.png)] bg-no-repeat mt-8 ml-20 w-11/12 text-white lg:mr-24 rounded-xl ">
 
-                    <div class="pt-12 pl-8 space-y-6">
-                    <h2 class="text-4xl font-semibold">Teenager Program</h2> 
+                    <div class="pt-4 pt-10 lg:pt-12 pl-8 space-y-6 font-manrope">
+                    <h2 class=" text-2xl lg:text-4xl font-semibold">Teenager Program</h2> 
                     <p>
                         Junior A was referred to as Tier II Junior A in the 1970s, until what was  <br> called Major Junior A broke away from  their regional branches in 1980 and <br> formed the Canadian Hockey League, becoming Major Junior hockey.</p>
                     <button class="p-2 bg-red-500 text-white  w-64 h-26 text-base border-red-500 btn">Register Now!</button>
                 </div>
                 </div>
-                <div class="bg-[url(images/4.png)] bg-no-repeat text-white space-y-4  col-span-2 mt-4 ml-24 items-center w-11/12 h-96 rounded-xl">
-                    <div class="pt-12 pl-8 space-y-6 ">
-                    <h2 class="text-4xl font-semibold">Professional Program</h2> 
+                <div class="bg-[url(images/4.png)] bg-no-repeat text-white ml-20 w-11/12 space-y-4 lg:col-span-2 mt-4 lg:ml-24 items-center lg:w-11/12 h-96 rounded-xl">
+                    <div class="pt-12 pl-8 space-y-6 font-manrope">
+                    <h2 class="  text-2xl lg:text-4xl font-semibold">Professional Program</h2> 
                     <p>
                         Junior A was referred to as Tier II Junior A in the 1970s, until what was  <br> called Major Junior A broke away from  their regional branches in 1980 and <br> formed the Canadian Hockey League, becoming Major Junior hockey.</p>
                     <button class="p-2 bg-red-500 text-white w-64 h-26 border-red-500 btn text-base">Register Now!</button>
@@ -164,16 +176,16 @@
 
         <section>  
             <!-- new product -->
-            <div class="text-center space-y-6 justify-center justify-between mt-20 ">
-                <h2 class="text-[#131318] text-4xl font-semibold "> Our New Products</h2> 
-                <p class="text-lg "> 
+            <div class="text-center space-y-6 justify-center justify-between mt-20 font-manrope ml-20  w-10/12 ">
+                <h2 class="text-[#131318] text-2xl lg:text-4xl font-semibold "> Our New Products</h2> 
+                <p class=" lg:text-lg "> 
                   
 A product description is a form of marketing copy used to  <br> describe and explain the benefits of your product. 
               </p> 
              
             </div> 
-            <div class="grid grid-cols-2 space-y-6 mt-18"> 
-                <div class="grid grid-cols-2 border-none border-gray-500 w-10/12 h-64 ml-20 mt-6 card lg:card-side bg-base-100 shadow-xl gap-4 p-12 ">
+            <div class="grid grid-cols-1 lg:grid-cols-2 space-y-6 mt-18"> 
+                <div class="grid grid-cols-1 lg:grid-cols-2 border-none border-gray-500 w-11/12 lg:w-10/12 lg:h-64 ml-20 mt-6 card lg:card-side bg-base-100 shadow-xl gap-4  lg:p-12 ">
                <div>
                     <img src="images/5.png" alt="">
                 </div>
@@ -186,12 +198,12 @@ A product description is a form of marketing copy used to  <br> describe and exp
                         <a><i class="fa-regular fa-eye"></i></i>20</a>
                         <a><i class="fa-regular fa-heart"></i>200</a>
                     </div>
-                    <h2 class="text-[#131318] font-semibold text-base">World Cup Flags Football</h2> 
+                    <h2 class="text-[#131318] font-semibold lg:text-base font-manrope">World Cup Flags Football</h2> 
                     <p>
                      They're typically indicating that a penalty has occurred.
                     </p> 
                     <div>
-                        <a class="text-[#FF4240] font-semibold text-base">Price-$22.00</a>
+                        <a class="text-[#FF4240] font-semibold text-base font-manrope">Price-$22.00</a>
                         <a><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                           </svg>
@@ -200,7 +212,7 @@ A product description is a form of marketing copy used to  <br> describe and exp
                 </div>
             </div> 
           
-            <div class="grid grid-cols-2 border-0 border-gray-500 w-10/12 h-64 ml-8   card lg:card-side bg-base-100 shadow-xl gap-4 p-8 ">
+            <div class="grid grid-cols-1 lg:grid-cols-2 border-0 border-gray-500 w-11/12 lg:w-10/12 lg:h-64 ml-20   card lg:card-side bg-base-100 shadow-xl gap-4 lg:p-8 ">
                 <div>
                     <img src="images/6.png" alt="">
                 </div> 
@@ -214,7 +226,7 @@ A product description is a form of marketing copy used to  <br> describe and exp
                         <a><i class="fa-regular fa-heart"></i>200</a>
                        
                     </div>
-                    <h2 class="text-[#131318] font-semibold text-base">World Cup Flags Football</h2> 
+                    <h2 class="text-[#131318] font-semibold text-base font-manrope">World Cup Flags Football</h2> 
                     <p>
                         They're typically indicating that a penalty has occurred.
                     </p>
@@ -229,7 +241,7 @@ A product description is a form of marketing copy used to  <br> describe and exp
                 </div>
             </div> 
          
-            <div class="grid grid-cols-2 border-0 border-gray-500 w-10/12 h-64 ml-20 card lg:card-side bg-base-100 shadow-xl gap-4 p-8 ">
+            <div class="grid grid-cols-1 lg:grid-cols-2 border-0 border-gray-500 lg:ml-8 w-11/12 lg:w-10/12 lg:h-64 ml-20 card lg:card-side bg-base-100 shadow-xl gap-4 lg:p-8 ">
                 <div>
                     <img src="images/7.png" alt="">
                 </div> 
@@ -242,14 +254,14 @@ A product description is a form of marketing copy used to  <br> describe and exp
                         <a><i class="fa-regular fa-eye"></i></i>20</a>
                         <a><i class="fa-regular fa-heart"></i>200</a>
                     </div>
-                    <h2 class="text-[#131318] font-semibold text-base">Cap For Hockeys</h2> 
+                    <h2 class="text-[#131318] font-semibold text-base font-manrope">Cap For Hockeys</h2> 
                     <p>
                         They're typically indicating that a penalty has occurred.
                     </p>
     
               
                     <div>
-                        <a class="text-[#FF4240] font-semibold text-base">Price-$22.00</a>
+                        <a class="text-[#FF4240] font-semibold text-base" font-manrope>Price-$22.00</a>
                         <a><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                           </svg>
@@ -257,7 +269,7 @@ A product description is a form of marketing copy used to  <br> describe and exp
                         </div>
                 </div>
             </div> 
-            <div class="grid grid-cols-2 border-0 border-gray-500 w-10/12 h-64 ml-8 card lg:card-side bg-base-100 shadow-xl gap-2 p-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 border-0 border-gray-500 w-11/12 ml-20 lg:w-10/12 lg:h-64 lg:ml-8 card lg:card-side bg-base-100 shadow-xl gap-2 lg:p-8">
                 <div>
                     <img src="images/8.png" alt="">
                 </div> 
@@ -271,7 +283,7 @@ A product description is a form of marketing copy used to  <br> describe and exp
                         <a><i class="fa-regular fa-heart"></i>200</a>
                     </div>
             
-                    <h2 class="text-[#131318] font-semibold text-base">World Cup Flags Football</h2> 
+                    <h2 class="text-[#131318] font-semibold text-base font-manrope">World Cup Flags Football</h2> 
                     <p>        They're typically indicating that a penalty has occurred.
                     </p>
                     <div>
@@ -283,7 +295,7 @@ A product description is a form of marketing copy used to  <br> describe and exp
                         </div>
                 </div>
             </div> 
-            <div class="grid grid-cols-2 border-0 border-gray-500 w-10/12 h-64 ml-20 card lg:card-side bg-base-100 shadow-xl gap-2 p-8 ">
+            <div class="grid grid-cols-1 lg:grid-cols-2 border-0 border-gray-500 w-11/12  lg:w-10/12 lg:h-64 ml-20 card lg:card-side bg-base-100 shadow-xl gap-2 lg:p-8 ">
                 <div>
                     <img src="images/9.png" alt="">
                 </div> 
@@ -296,7 +308,7 @@ A product description is a form of marketing copy used to  <br> describe and exp
                     <a><i class="fa-regular fa-eye"></i></i>20</a>
                     <a><i class="fa-regular fa-heart"></i>200</a>
                 </div>
-                    <h2 class="text-[#131318] font-semibold text-base">World Cup Flags Football</h2> 
+                    <h2 class="text-[#131318] font-semibold text-base font-manrope">World Cup Flags Football</h2> 
                     <p>
                         They're typically indicating that a penalty has occurred.
                     </p>
@@ -310,7 +322,7 @@ A product description is a form of marketing copy used to  <br> describe and exp
                         </div>
                 </div>
             </div> 
-            <div class="grid grid-cols-2 border-0 border-gray-500 w-10/12 h-64 ml-8 card lg:card-side bg-base-100 shadow-xl gap-2 p-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 border-0 border-gray-500 w-11/12 ml-20 lg:w-10/12 lg:h-64 lg:ml-8 card lg:card-side bg-base-100 shadow-xl gap-2 lg:p-8">
                 <div>
                     <img src="images/10.png" alt="">
                 </div> 
@@ -324,7 +336,7 @@ A product description is a form of marketing copy used to  <br> describe and exp
                         <a><i class="fa-regular fa-heart"></i>200</a>
                     </div>
               
-                    <h2 class="text-[#131318] font-semibold text-bas">World Cup Flags Football</h2> 
+                    <h2 class="text-[#131318] font-semibold text-bas font-manrope">World Cup Flags Football</h2> 
                     <p>
                         They're typically indicating that a penalty has occurred.
                     </p>
@@ -342,7 +354,7 @@ A product description is a form of marketing copy used to  <br> describe and exp
         </section>  
         <!-- Clients Question -->
         <section>
-            <div class="text-center space-y-6 justify-center justify-between mt-20 ">
+            <div class="text-center space-y-6 justify-center justify-between mt-20 font-manrope w-11/12 ml-20 ">
                 <h2 class="text-[#131318] text-4xl font-semibold "> Clients Question</h2> 
                 <p class="text-lg "> 
                   
@@ -352,12 +364,12 @@ A product description is a form of marketing copy used to  <br> describe and exp
             </div>
            
         <section>
-            <div  class="grid grid-cols-2 mt-20 bg-slate-50">
-            <div class="w-9/12 h-10/12 ml-40">
+            <div  class="grid grid-cols-1 lg:grid-cols-2 mt-20 bg-slate-50 w-11/12 ml-20">
+            <div class="lg:w-9/12 h-10/12 lg:ml-40">
                 <img src="images/11.png" alt="">
             </div> 
             <!-- <div></div>  -->
-            <div  class="w-11/12 h-11/12  pr-36 border-0">
+            <div  class=" w-11/12 lg:h-11/12 mt-6 lg:pr-36 border-0 font-manrope">
                 <div class="collapse collapse-plus bg-base-200 w-full ">
                   <input type="radio" name="my-accordion-3" checked="checked" /> 
                   <div class="collapse-title text-xl font-medium">
@@ -385,12 +397,12 @@ A product description is a form of marketing copy used to  <br> describe and exp
                     <p>Private lessons are the same as one-to-one lessons or Individual tuition. They all mean one teacher and one student in the classroom.</p>
                   </div>
                 </div>
-                <div class="collapse collapse-plus bg-base-200">
+                <div class="collapse collapse-plus bg-base-200 font-manrope">
                   <input type="radio" name="my-accordion-3" /> 
                   <div class="collapse-title text-xl font-medium">
                     Ski Touring
                   </div>
-                  <div class="collapse-content"> 
+                  <div class="collapse-content font-manrope"> 
                     <p>Ski touring is skiing in the backcountry on unmarked or unpatrolled areas. Touring is typically done off-piste and outside of ski resorts, and may extend over a period of more than one day</p>
                   </div>
                 </div>
@@ -399,7 +411,7 @@ A product description is a form of marketing copy used to  <br> describe and exp
                   <div class="collapse-title text-xl font-medium">
                       Booking
                   </div>
-                  <div class="collapse-content"> 
+                  <div class="collapse-content font-manrope"> 
                     <p>An arrangement to have a place on a flight, a room in a hotel, etc. at a particular time in the future: Compare prices before making a booking.</p>
                   </div>
                 </div>
@@ -408,7 +420,7 @@ A product description is a form of marketing copy used to  <br> describe and exp
                   <div class="collapse-title text-xl font-medium">
                       Pricings
                   </div>
-                  <div class="collapse-content"> 
+                  <div class="collapse-content font-manrope"> 
                     <p>Pricing is a process of fixing the value that a manufacturer will receive in the exchange of services and goods. </p>
                   </div>
                 </div> 
@@ -424,8 +436,8 @@ A product description is a form of marketing copy used to  <br> describe and exp
         <!-- Get In Touch section -->
 
         <section>
-            <div class="text-center space-y-6 justify-center justify-between mt-20 ">
-                <h2 class="text-[#131318] text-4xl font-semibold "> Get In Touch</h2> 
+            <div class="text-center space-y-6 justify-center justify-between mt-20 w-11/12 ml-20">
+                <h2 class="text-[#131318] text-2xl lg:text-4xl font-semibold  font-manrope"> Get In Touch</h2> 
                 <p class="text-lg "> 
                   
                   If you get in touch with someone, you contact them <br> by writing to them or phoning them.   <br>  
@@ -433,10 +445,10 @@ A product description is a form of marketing copy used to  <br> describe and exp
             </div> 
           </section>
             <section> 
-            <div class= " grid grid-cols-2 mt-20 "> 
+            <div class= " grid grid-cols-1 lg:grid-cols-2 mt-20 "> 
                 
-              <div class="gap-y-2 ml-20">  
-                <div class="bg-red-50 border-0 border-gray-500 w-96 h-48 ml-20 card lg:card-side bg-base-100 shadow-xl gap-2 p-8">
+              <div class="gap-y-2 lg:ml-20">  
+                <div class="bg-red-50 border-0 border-gray-500 w-11/12  lg:w-96 lg:h-48 ml-20 card lg:card-side bg-base-100 shadow-xl gap-2 lg:p-8">
                 <div>
                 <img src="images/group1.png" alt="" class="w-10 h-10"> 
                 <br>
@@ -444,14 +456,14 @@ A product description is a form of marketing copy used to  <br> describe and exp
                   (+62) 123-321-543</p> 
                 </div>
               </div>  
-              <div class="bg-green-50 border-0 mt-8 border-gray-500 w-96 h-48 ml-20 card lg:card-side bg-base-100 shadow-xl gap-2 p-8">  
+              <div class="bg-green-50 border-0 mt-8 border-gray-500 w-11/12 lg:w-96 lg:h-48 ml-20 card lg:card-side bg-base-100 shadow-xl gap-2 lg:p-8">  
                 <div>
                 <img src="images/group2.png" alt="" class="w-10 h-10">  <br>
                 <p>Email : <br>
                   hockeys@support.com</p> 
                 </div>
               </div> 
-              <div class="bg-red-50 border-0  mt-8 border-gray-500 w-96 h-48 ml-20 card lg:card-side bg-base-100 shadow-xl gap-2 p-8">  
+              <div class="bg-red-50 border-0  mt-8 border-gray-500 w-11/12  lg:w-96 lg:h-48 ml-20 card lg:card-side bg-base-100 shadow-xl gap-2  lg:p-8">  
                 <div>
                <img src="images/group3.png" alt="" class="w-10 h-10">  
                <br>
@@ -462,11 +474,12 @@ A product description is a form of marketing copy used to  <br> describe and exp
               </div> 
              
 
-            
+              <form > 
+
     
-                 <form class="grid grid-cols-2 ">
+                 <div class="grid   lg:grid-cols-2 font-manrope mt-4">
                   <div for="name" class="font-bold text-[#131318] text-xl">Your Name <br>
-                    <input type="text" id="name" placeholder="Enter your full name" class="w-30 h-14  border-0 bg-neutral-200 rounded-xl mt-4 mr-28 p-2 text-base font-normal" >
+                    <input type="text" id="name" placeholder="Enter your full name" class=" w-11/12 h-20 ml-20 lg:w-30 lg:h-14  border-0 bg-neutral-200 rounded-xl mt-4 lg:mr-28 lg:p-2 text-base font-normal" >
                   </div> 
                   <div for="email" class="font-bold text-[#131318] text-xl" >Your Email <br>
                     <input type="email" id="email" placeholder="Enter your email" class="w-30 ml-30 h-14 mt-4 border-0 bg-neutral-200 p-2 rounded-2 rounded-xl text-base font-normal">
@@ -477,19 +490,20 @@ A product description is a form of marketing copy used to  <br> describe and exp
                   <div for="number" class="font-bold text-[#131318] text-xl">Phone Number <br>
                     <input type="number" id="number" placeholder="Enter your phone number" class="w-30 h-14 mt-4 border-0 bg-neutral-200 rounded-xl p-2 text-base font-normal" >
                   </div> 
-                  <div for="name" class="col-span-2  font-bold text-[#131318] text-xl">Message  <br>
-                    <textarea type="input" id="name" placeholder="Write your message" class="w-9/12 h-72 resize-none border-0 bg-neutral-200 rounded-xl p-6 mt-4 text-base font-normal" ></textarea>
+                  <div for="name" class="   lg:col-span-2  font-bold text-[#131318] text-xl">Message  <br>
+                    <textarea type="input" id="name" placeholder="Write your message" class=" w-11/12 lg:w-9/12 lg:h-72 resize-none border-0 bg-neutral-200 rounded-xl p-6 mt-4 text-base font-normal" ></textarea>
                   </div> 
                   <div for="button" class="col-span-2 ">
-                   <button  id="button" class="w-9/12 bg-red-500 text-white btn ">Send Message</button>
+                   <button  id="button" class=" ml-20 w-11/12 lg:w-9/12 bg-red-500 text-white btn ">Send Message</button>
                   </div> 
                   
-                 </form> 
+                 </div>  
+                 </form>
               
 
-                </div>  
-                <div class="text-center mt-16 bg-neutral-200 w-9/12 h-44 pt-10 ml-40 rounded-xl">
-                  <h2 class="font-bold text-[#131318] text-xl">Social Media</h2>
+            
+                <div class="text-center mt-16 bg-neutral-200 grid-cols-2  w-11/12 ml-20 lg:w-9/12 h-44 pt-10 lg:ml-40 rounded-xl">
+                  <h2 class="font-bold text-[#131318] text-xl font-manrope">Social Media</h2>
                   <div class="space-x-4 pt-4">
                   <a href=""><i class="fa-brands fa-twitter"></i></a> 
                   <a href=""><i class="fa-brands fa-facebook"></i></a>
@@ -506,16 +520,16 @@ A product description is a form of marketing copy used to  <br> describe and exp
 
    <!-- Main Section Ends Here --> 
    <footer>
-    <div class="grid grid-cols-4 gap-x-4  w-9/12 h-96 pt-10 bg-slate-950 ml-40 mt-20 text-white rounded-xl">  
+    <div class="grid grid-cols-1 lg:grid-cols-4 w-11/12 ml-20 lg:w-10/12 lg:h-96 pt-10 bg-slate-950 lg:ml-32 mt-20 text-white rounded-xl font-manrope">  
    
-  <div class="ml-16 space-y-4"  >
+  <div class="lg:ml-16 space-y-4 font-manrope w-11/12 ml-4  text-center"  >
     <h2 class="text-xl font-extrabold ">Get In Touch</h2> 
     <p>If you are, keep, or stay in touch  with them, you write, phone,  <br>or visit each other regularly.</p>
   </div>
 
 
 
-  <div class="ml-20 space-y-2">
+  <div class=" lg:ml-20 space-y-2  sm:ml-4 font-manrope">
   <h2 class="text-lg font-bold ">Company</h2>
   <p>About us <br>
     Leadership <br>
@@ -523,7 +537,7 @@ A product description is a form of marketing copy used to  <br> describe and exp
     News & Article <br>
     Legal Notice</p> 
 </div> 
-<div class="ml-20 space-y-2"> 
+<div class="ml-20 space-y-2  font-manrope"> 
   <h2 class="text-lg font-bold ">Support</h2> 
   <p>
   Help Center <br>
@@ -531,8 +545,9 @@ A product description is a form of marketing copy used to  <br> describe and exp
    Ticket Support <br>
    Contact Us
   </p>
-</div> 
-<div class="ml-20 space-y-2">
+</div>  
+
+<div class="ml-20 space-y-2 font-manrope">
   <h2 class="text-lg font-bold ">Services</h2> 
   <p class="text-base ">Academy <br>
     Group Lesson <br>
@@ -540,7 +555,7 @@ A product description is a form of marketing copy used to  <br> describe and exp
     Hockeys for kids <br>
     Hockeys for Adult</p>
 </div>
-<div class="ml-12 mb-8">
+<div class="ml-12 mb-8 font-manrope">
 <p><i class="fa-regular fa-envelope text-red-500"></i> hockeys@support.com </p> <br> 
 
 <p><i class="fa-solid fa-phone text-red-500"></i>   (+62) 123-321-543 </p>
